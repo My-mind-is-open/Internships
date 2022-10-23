@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import 'Header';
+@import 'Content';
+@import 'Process';
+@import 'about';
+@import 'consultation';
+@import 'form';
+@import 'video';
+@import 'photo';
+@import 'footer';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow-y: hidden
+}
+
+body {
+	overflow-x: hidden;
+
+}
+
+.title {
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 73px;
+
+	color: #000000;
+}
+
+.title--midle {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	/* identical to box height */
+
+
+	color: #000000;
+}
+
+.title--large {
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 40px;
+	/* or 80% */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.block {
+	height: 5px;
+	width: 74px;
+	background: #E33E54;
+}
+
+.text {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	/* or 188% */
+
+
+	color: #000000;
+}
+
+.input {
+	height: 56px;
+	width: 240px;
+	text-indent: 17px;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+}
+
+@media(max-width:768px) {
+	.title {
+
+
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 55px;
+		/* identical to box height */
+
+
+		color: #000000;
+	}
+
+	.title--large {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 40px;
+		line-height: 30px;
+		/* or 75% */
+
+		text-align: center;
+		text-transform: uppercase;
+
+
+	}
+
+	.input {
+		height: 56px;
+		width: 354px;
+		;
+
+	}
+}

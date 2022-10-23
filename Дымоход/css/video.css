@@ -1,0 +1,11 @@
+.video {
+  height: 853px;
+  width: 1920px;
+  max-width: 100%;
+}
+.video .container {
+  margin-top: 382px;
+  margin-left: 382px;
+  position: absolute;
+  border: 1px solid red;
+}

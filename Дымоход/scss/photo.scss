@@ -1,0 +1,229 @@
+.photo {
+	width: 1920px;
+	max-width: 100%;
+	height: 780px;
+
+
+	.container {
+		margin-left: 351px;
+		margin-right: 351px;
+
+		display: flex;
+		flex-direction: column;
+
+		.photo__block {
+			margin-top: 99px;
+		}
+
+		.photot__title {
+			margin-top: 11px;
+		}
+
+		.photo__text {
+			margin-top: 66px
+		}
+
+		.photo__gallery {
+			height: 550px;
+
+			.wrapper {
+				max-width: 1218px;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 49px;
+
+
+				.photo__img1 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img1.jpg');
+
+				}
+
+				.photo__img2 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img2jpg.jpg');
+
+				}
+
+				.photo__img3 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img3.jpg');
+
+				}
+
+				.photo__img4 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img4.jpg');
+
+				}
+
+				.photo__img5 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img5.jpg');
+
+				}
+
+				.photo__img6 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img6.jpg');
+
+				}
+
+				.photo__img7 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img7jpg.jpg');
+
+				}
+
+				.photo__img8 {
+					height: 260px;
+					width: 292px;
+					background-repeat: no-repeat;
+					border-radius: 0px;
+					background-image: url('../img/img8.jpg');
+
+				}
+			}
+
+		}
+	}
+}
+
+@media(max-width:768px) {
+	.photo {
+		width: 760px;
+		max-width: 100%;
+		height: 990px;
+
+
+		.container {
+			margin-left: 15px;
+			margin-right: 15px;
+
+			display: flex;
+			flex-direction: column;
+
+			.photo__block {
+				margin-top: 9px;
+			}
+
+			.photot__title {
+				margin-top: 11px;
+			}
+
+			.photo__text {
+				margin-top: 26px
+			}
+
+			.photo__gallery {
+				height: 550px;
+
+				.wrapper {
+					max-width: 760px;
+					width: 100%;
+					height: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					margin-top: 20px;
+					align-items: center;
+
+					.photo__img1 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img2 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img3 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img4 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img5 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img6 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img7 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+
+					.photo__img8 {
+						height: 208px;
+						width: 226px;
+						background-repeat: no-repeat;
+						border-radius: 0px;
+						background-image: url('../img/photo__mini.png');
+
+					}
+				}
+
+			}
+		}
+	}
+}

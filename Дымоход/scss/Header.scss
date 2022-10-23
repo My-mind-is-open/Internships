@@ -1,0 +1,310 @@
+.header {
+	display: flex;
+	height: 123px;
+	align-items: flex-end;
+	width: 1920px;
+
+
+
+	.container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-left: 63px;
+		margin-right: 72px;
+		height: 97px;
+
+		width: 1785px;
+
+		.header__logo {
+			height: 97px;
+			width: 100px;
+
+
+			background-image: url('../img/Logo.svg');
+			background-repeat: no-repeat;
+
+		}
+
+		.header__right {
+			display: flex;
+			justify-content: space-between;
+			width: 90%;
+			align-items: center;
+
+
+
+
+			.nav {
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				width: 752px;
+
+
+				.nav__burger {
+					width: 56px;
+					height: 56px;
+					background-image: url('../img/burger\ menu.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+
+
+				}
+
+				.nav__list {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					list-style-type: none;
+					flex-direction: row;
+					width: 665px;
+
+					.nav__item {
+
+						list-style-type: none;
+						margin: 15px;
+
+
+						.nav__link {
+
+							font-family: 'Montserrat';
+							font-style: normal;
+							font-weight: 700;
+							font-size: 16px;
+							line-height: 23px;
+							text-transform: uppercase;
+							text-decoration: none;
+							color: #4C858B;
+						}
+
+						.nav__link:hover {
+							color: goldenrod;
+						}
+
+					}
+
+
+				}
+			}
+
+			.header__phone {
+
+				width: 166px;
+				height: 24px;
+				font-family: 'Montserrat';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+
+
+				letter-spacing: 0.08em;
+				color: black;
+
+				span {
+					color: black;
+					font-family: 'Montserrat';
+					font-weight: 700;
+				}
+
+			}
+
+			.header__call {
+				height: 24px;
+				width: 156px;
+				filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+				border-radius: nullpx;
+				color: #B22222;
+				text-decoration-line: underline;
+				text-decoration-style: dashed;
+				font-size: 14px;
+			}
+
+			.media {
+				width: 132px;
+				height: 20px;
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.media__vk {
+					width: 20px;
+					height: 20px;
+					background-image: url('../img/vk.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+
+				}
+
+				.media__telegram {
+					width: 20px;
+					height: 20px;
+					background-image: url('../img/telegram.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+
+				.media__inst {
+					width: 20px;
+					height: 20px;
+					background-image: url('../img/instagram.png');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+
+				.media__whats {
+					width: 20px;
+					height: 20px;
+					background-image: url('../img/whatsapp.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+
+			}
+
+			.search {
+				width: 216px;
+				height: 56px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.search-img {
+					width: 56px;
+					height: 56px;
+					background-image: url('../img/search.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+
+				.search__love {
+					width: 56px;
+					height: 56px;
+					background-image: url('../img/like.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+
+				.search_box {
+					width: 60px;
+					height: 56px;
+					background-image: url('../img/cart.svg');
+					background-repeat: no-repeat;
+					cursor: pointer;
+				}
+			}
+
+		}
+
+
+	}
+
+}
+
+@media(max-width:768px) {
+	.header {
+		height: 122px;
+		width: 100%;
+
+		.container {
+			display: flex;
+			justify-content: space-between;
+			margin-left: 16px;
+			margin-right: 15px;
+			// flex-direction: row-reverse;
+
+			.header__logo {
+				height: 62px;
+				width: 64px;
+				background-image: url('../img/Logo-mini.png');
+				background-repeat: no-repeat;
+
+			}
+
+			.header__right {
+				flex-direction: row-reverse;
+				display: flex;
+				justify-content: flex-start;
+
+
+				.nav {
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+
+					max-width: 640px;
+					width: 10%;
+
+
+					.nav__burger {
+						width: 56px;
+						height: 56px;
+						background-image: url('../img/burger\ menu.svg');
+						background-repeat: no-repeat;
+						cursor: pointer;
+
+
+
+					}
+
+					.nav__list {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						list-style-type: none;
+						flex-direction: row;
+						display: none;
+
+						.nav__item {
+
+							list-style-type: none;
+							margin: 15px;
+
+
+							.nav__link {
+
+								font-family: 'Montserrat';
+								font-style: normal;
+								font-weight: 700;
+								font-size: 16px;
+								line-height: 23px;
+								text-transform: uppercase;
+								text-decoration: none;
+								color: #4C858B;
+							}
+
+							.nav__link:hover {
+								color: goldenrod;
+							}
+
+						}
+
+
+					}
+				}
+
+				.header__phone {
+					display: none;
+				}
+
+				.header__call {
+					display: none;
+				}
+
+				.media {
+					display: none;
+				}
+
+				.search {
+
+					margin-right: 10px;
+				}
+			}
+		}
+
+
+	}
+
+}
